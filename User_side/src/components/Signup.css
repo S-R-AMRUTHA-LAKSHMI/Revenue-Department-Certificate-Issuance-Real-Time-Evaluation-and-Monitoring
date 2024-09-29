@@ -1,0 +1,110 @@
+body {
+  font-family: 'Verdana', sans-serif;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+  font-family: 'Segoe UI Semibold', sans-serif;
+  color: #333;
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #002147;
+  font-family: 'Segoe UI Semibold', sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.signup-title {
+  font-family: 'Verdana', sans-serif;
+  text-align: center;
+  color: #002147;
+  font-family: 'Verdana', sans-serif;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.signup-field {
+  margin-bottom: 15px;
+}
+
+.signup-label {
+  font-weight: bold;
+  display: inline-block;
+  color: #333;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #e9ecef;
+}
+
+.signup-button {
+  width: 50%;
+  background-color: #002147;
+  color: white;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-family: 'Verdana', sans-serif;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #84c2ed;;
+}
+
+@media (max-width: 600px) {
+  .signup-form {
+      width: 90%;
+  }
+
+  .signup-title {
+      font-size: 1.3rem;
+  }
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: #074d7e;
+  color: black;
+  font-family: 'Verdana', sans-serif;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #84c2ed;;
+}
+
+.login-text {
+  text-align: center;
+}
+
+.login-link {
+  color: white;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}

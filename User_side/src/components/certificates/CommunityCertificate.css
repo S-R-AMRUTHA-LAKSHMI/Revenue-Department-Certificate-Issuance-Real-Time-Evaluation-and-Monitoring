@@ -1,0 +1,103 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.community-container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.community-heading {
+    text-align: center;
+    color: #0056b3;
+    font-size: 26px;
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+}
+
+.community-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.community-input,
+.community-file-input,
+.community-select,
+.community-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fafafa;
+    font-family:'Segoe UI Semibold';
+}
+
+.community-select {
+    height: 40px;
+}
+
+.community-textarea {
+    resize: none;
+    font-family: 'Verdana', sans-serif;
+    height: 100px;
+}
+
+.community-submit-button {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 20%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.community-submit-button:hover {
+    background-color: #004494;
+}
+
+.community-file-input {
+    border: none;
+}
+
+.community-file-input::file-selector-button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.community-file-input::file-selector-button:hover {
+    background-color: #004494;
+}
+
+@media (max-width: 768px) {
+    .community-container {
+        width: 90%;
+    }
+}
+
+.community-label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  

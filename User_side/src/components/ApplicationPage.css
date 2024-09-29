@@ -1,0 +1,76 @@
+.application-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  font-family: 'Segoe UI Semibold', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.application-container h1 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 2.5rem;
+  color: #074d7e; 
+  margin-bottom: 20px;
+  text-transform: uppercase; 
+  font-weight: bold;
+  border-bottom: 4px solid #84c2ed; 
+  padding-bottom: 10px;
+}
+
+.application-container p {
+  font-size: 1.2rem;
+  font-family: 'Segoe UI Semibold', sans-serif;
+  color: #333; 
+  margin-bottom: 30px;
+}
+
+.options {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option-button {
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  font-family: 'Segoe UI Semibold', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #84c2ed; 
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid #074d7e; 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+}
+
+.option-button:hover {
+  background-color: #074d7e; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .application-container h1 {
+    font-size: 2rem;
+  }
+
+  .application-container p {
+    font-family: 'Segoe UI Semibold', sans-serif;
+    font-size: 1rem; 
+  }
+
+  .option-button {
+    padding: 10px 25px;
+    font-family: 'Segoe UI Semibold', sans-serif;
+    font-size: 1rem;
+  }
+
+  .options {
+    gap: 15px; 
+  }
+}

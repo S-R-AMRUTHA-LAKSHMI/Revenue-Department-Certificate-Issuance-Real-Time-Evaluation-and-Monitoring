@@ -1,0 +1,128 @@
+h1 {
+    text-align: center; /* Center the heading */
+    margin: 0; /* Remove default margin */
+    padding-bottom: 20px; /* Add space below the heading */
+}
+
+/* Main container for the application detail page */
+.application-container1{
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center all items, including the heading */
+}
+
+/* Centered box for application details */
+.application-details {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Centers the box */
+    max-width: 600px; /* Set a max width */
+    text-align: left; /* Aligns the text inside the box to the left */
+}
+
+/* Button container for spacing between buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px; /* Adds space above the button container */
+}
+
+/* Styling for approve button */
+.approve-button {
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for approve button */
+.approve-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for reject button */
+.reject-button {
+    background-color: #dc3545; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for reject button */
+.reject-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+h1 {
+  text-align: center; /* Center the heading */
+  margin: 0; /* Remove default margin */
+  padding-bottom: 20px; /* Add space below the heading */
+}
+
+/* Main container for the application detail page */
+.application-container1{
+  padding: 20px;
+  background-color: #f8f9fa;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Align items in a column */
+  align-items: center; /* Center all items, including the heading */
+}
+
+/* Centered box for application details */
+.application-details {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Centers the box */
+  max-width: 600px; /* Set a max width */
+  text-align: left; /* Aligns the text inside the box to the left */
+}
+
+/* Button container for spacing between buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Space between buttons */
+  margin-top: 20px; /* Adds space above the button container */
+}
+
+/* Styling for approve button */
+.approve-button {
+  background-color: #28a745; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for approve button */
+.approve-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for reject button */
+.reject-button {
+  background-color: #dc3545; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for reject button */
+.reject-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}

@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa; 
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .image-container img {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .login-container {
+    background-color: white;
+    border: 2px solid #002147; 
+    border-radius: 10px;
+    padding: 40px;
+    width: 350px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .header h3 {
+    font-family: 'Verdana', sans-serif;
+    color: #0056b3;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-family: 'Segoe UI Semibold', sans-serif;
+    color: #333;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  .input input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Segoe UI Semibold', sans-serif;
+    background-color: #e9ecef;
+    background-size: 20px 20px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .forgotpassword {
+    font-size: 0.9rem;
+    color: #0056b3; 
+    cursor: pointer;
+  }
+  
+  .forgotpassword span:hover {
+    text-decoration: underline;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .remember-me input {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  .submit button {
+    background-color: #0056b3;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Verdana', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit button:hover {
+    background-color: #003366;
+  }
+  
+  .signup-text p {
+    font-family: 'Segoe UI Semibold', sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .signup-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Segoe UI Semibold', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #218838; 
+  }
+  
+  .signup-button[align="center"] {
+    margin-top: 20px;
+    background-color: #6c757d; 
+  }
+  
+  .signup-button[align="center"]:hover {
+    background-color: #5a6268;
+  }
+  
+  @media (max-width: 768px) {
+    .login-container {
+      font-family: 'Segoe UI Semibold', sans-serif;
+      width: 90%;
+    }
+  
+    .submit button {
+      padding: 8px 20px;
+    }
+  
+    .signup-text p {
+      font-size: 0.8rem;
+    }
+  }

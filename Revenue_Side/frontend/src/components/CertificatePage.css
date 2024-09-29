@@ -1,0 +1,88 @@
+/* Container for applications */
+.application-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures applications wrap to the next line if there are more than two */
+    gap: 30px; /* Adds space between the boxes */
+    justify-content: space-between;
+    padding: 80px; /* Adds space between the screen edges and application boxes */
+}
+
+/* Style for each application box */
+.application-box {
+    flex: 1 1 calc(50% - 40px); /* Ensures two boxes per row with space between */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+/* Adjusting for smaller screens */
+@media (max-width: 768px) {
+    .application-box {
+        flex: 1 1 100%; /* On small screens, applications take up 100% width */
+        max-width: 100%; /* Full width for smaller screens */
+    }
+}
+
+/* Adjusting for medium screens */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .application-box {
+        flex: 1 1 calc(50% - 20px); /* Two applications per row for medium screens */
+        max-width: calc(50% - 20px); /* Adjust max width for medium screens */
+    }
+}
+
+/* Adjusting for large screens */
+@media (min-width: 800px) {
+    .application-box {
+        flex: 1 1 calc(33.33% - 40px); /* Three applications per row for larger screens */
+        max-width: calc(33.33% - 40px);
+    }
+}
+
+/* Centering the heading */
+h1, h2 {
+    text-align: center;
+}
+
+/* Style for the count box */
+.count-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stacks the heading and list vertically */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin: 20px auto; /* Centers the box horizontally */
+    max-width: 400px;
+    position: relative;
+}
+
+/* Styling the unordered list for counts */
+.count-list {
+    list-style-type: disc; /* Display bullet points */
+    padding-left: 20px; /* Ensure the bullets have appropriate space */
+    text-align: center; /* Centers the text */
+}
+
+/* Styling individual list items */
+.count-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.count-list li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.view-button {
+    display: block; /* Ensures it behaves as a block element */
+    margin-left: auto; /* Pushes the button to the right */
+    padding-right: 30px; /* Adds padding inside the button on the right */
+    text-decoration: none; /* Removes underline from the text */
+}
+

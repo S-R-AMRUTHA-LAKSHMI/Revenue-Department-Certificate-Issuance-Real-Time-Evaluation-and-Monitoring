@@ -1,0 +1,163 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #f0f4f7; 
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  font-family: 'Verdana', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+}
+
+
+h2 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+h3 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 20px;
+  color: #2980b9; 
+  margin-top: 20px; 
+}
+
+p {
+  font-size: 16px; 
+  line-height: 1.5;
+}
+
+.certificate-options {
+    display: flex;
+    font-family: 'Segoe UI Semibold', sans-serif;
+    flex-direction: column; 
+    margin-top: 10px; 
+}
+
+.certificate-button {
+    display: block; 
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    font-family: 'Segoe UI Semibold', sans-serif;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; 
+}
+
+.certificate-button:hover {
+    background-color: #1a5a8e; 
+}
+
+.certificate-button:focus {
+    outline: none; 
+}
+
+.error-message {
+  font-family: 'Segoe UI Semibold', sans-serif;
+  color: red; 
+  font-weight: bold; 
+}
+
+.loading {
+  font-family: 'Segoe UI Semibold', sans-serif;
+  font-size: 18px;
+  color: #7f8c8d;
+}
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.certificate-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.certificate-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.certificate-button:hover {
+  background-color: #0056b3;
+}
+
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.applications-table th,
+.applications-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.applications-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.applications-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-details p {
+  margin: 5px 0;
+}
+
+.error-message,
+.loading-message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+}
+.download-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
